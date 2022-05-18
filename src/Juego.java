@@ -76,15 +76,15 @@ public class Juego
     }
 }
 /**
- *
+ * Clase que representa al Jugador
  */
 class Jugador{
-   
+    int exitos;      // número de partidas ganadas
+    int winTotal;
+
     /**
      * Escoge piedra, papel o tijera al azar
      */
-    int exitos;      // número de partidas ganadas
-    int winTotal;
     public String opcion_al_azar()
     {
         String opcion = "";
