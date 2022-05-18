@@ -79,7 +79,15 @@ public class Juego
  * Clase que representa al Jugador
  */
 class Jugador{
+
     int exitos;      // número de partidas ganadas
+
+    /**
+     * Constructor de Jugador
+     */
+    public Jugador() {
+        this.exitos = 0;
+    }
 
     /**
      * Escoge piedra, papel o tijera al azar
@@ -87,7 +95,7 @@ class Jugador{
     public String opcion_al_azar()
     {
         String opcion = "";
-        int c = (int)(Math.random()*3);
+        int c = (int)(Math.random() * 3);
         switch (c) {
             case 0 -> opcion = ("piedra");
             case 1 -> opcion = ("papel");
