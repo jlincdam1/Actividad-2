@@ -66,7 +66,7 @@ public class Juego
                 System.out.println("\n\t\t\t Empate \n");
             }
             rondasJugadas++;
-            if((p1.exitos >=3) || (p2.exitos >=3))
+            if((p1.exitos >= 3) || (p2.exitos >= 3))
             {
             	finDeJuego = true;
                 System.out.println("FIN DEL JUEGO!!");
@@ -101,6 +101,6 @@ class Jugador{
     }
     public int getExitos()
     {
-        return(exitos);
+        return exitos;
     }
 }
