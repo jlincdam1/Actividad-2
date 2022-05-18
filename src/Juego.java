@@ -72,7 +72,7 @@ public class Juego
                 System.out.println("FIN DEL JUEGO!!");
             }
             System.out.println();
-        } while(finDeJuego != true);
+        } while(!finDeJuego);
     }
 }
 /**
