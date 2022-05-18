@@ -60,7 +60,7 @@ public class Juego
             	exitosJugador2 = ++p2.exitos;
                 System.out.println("Jugador 2 GANA");
             }
-            if(opcionJugador1 == opcionJugador2)
+            if(opcionJugador1.equals(opcionJugador2))
             {
             	empates++;
                 System.out.println("\n\t\t\t Empate \n");
